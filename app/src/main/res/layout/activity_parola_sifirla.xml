@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constraitarkaplan"
+    tools:context=".ParolaSifirlaActivity">
+
+    <TextView
+        android:id="@+id/psifirlamabaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="16dp"
+        android:text="  PAROLA SIFIRLAMA"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/psifirlamamesaj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/psifirlamamesaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/psifirlamaemail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/psifirlamabaslik"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/psifirlamaemail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:hint="E-Mail Adresinizi Giriniz"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/psifirlamabutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/psifirlamamesaj"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/psifirlamabutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/buttonarkaplan"
+        android:backgroundTint="@color/buttonColor"
+        android:text="Parolamı Sıfırla"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/psifirlamagirisyapbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/psifirlamaemail"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/psifirlamagirisyapbutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/buttonarkaplan"
+        android:backgroundTint="@color/buttonColor"
+        android:text="GİRİŞ YAP"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/psifirlamasozlesme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/psifirlamabutton"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/psifirlamasozlesme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="30dp"
+        android:text="Üye olarak veya giriş yaparak Kullanım ve Gizlilik Koşullarını    kabul etmiş sayılırsınız."
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/psifirlamagirisyapbutton"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

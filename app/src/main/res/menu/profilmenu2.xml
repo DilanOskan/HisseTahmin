@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Haberler"
+        android:id="@+id/haberler"
+        android:icon="@drawable/news"/>
+
+    <item android:title="Güncel Kurlar"
+        android:id="@+id/güncelkur"
+        android:icon="@drawable/borsa"/>
+
+    <item
+        android:id="@+id/cikis"
+        android:icon="@drawable/logout"
+        android:title="Çıkış" />
+</menu>

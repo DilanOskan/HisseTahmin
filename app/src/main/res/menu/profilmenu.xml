@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/bilgilerimigüncelle"
+        android:title="Bilgilerimi Güncelle"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/hesabısil"
+        android:title="Hesabı Sil"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/destek"
+        android:title="DESTEK"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/sözlük"
+        android:title="Sözlük"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/SSS"
+        android:title="SSS"
+        app:showAsAction="never"/>
+</menu>

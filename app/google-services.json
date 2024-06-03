@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "218200522124",
+    "firebase_url": "https://hissetahmin-a9652-default-rtdb.firebaseio.com",
+    "project_id": "hissetahmin-a9652",
+    "storage_bucket": "hissetahmin-a9652.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218200522124:android:ab67b239521030e3beaaa9",
+        "android_client_info": {
+          "package_name": "com.example.hissesenetleritahmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhWmFYnveboB_bqR2GvSu2q76Zzr-JIEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218200522124:android:ff1acb2ef3158e1fbeaaa9",
+        "android_client_info": {
+          "package_name": "com.example.hissetahmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhWmFYnveboB_bqR2GvSu2q76Zzr-JIEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

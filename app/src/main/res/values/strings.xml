@@ -1,0 +1,12 @@
+<resources>
+    <string name="email_hint">E-Mail Adresinizi Giriniz</string>
+    <string name="have_a_nice_day">İyi Günler</string>
+    <string name="password_hint">Parolanızı Giriniz</string>
+    <string name="forgot_password">Parolamı Unuttum</string>
+    <string name="login">GİRİŞ YAP</string>
+    <string name="new_user">Yeni Üyelik</string>
+    <string name="privacy_policy">Üye olarak veya giriş yaparak Kullanım ve Gizlilik Koşullarını kabul etmiş sayılırsınız.</string>
+    <string name="change_language">Dili Değiştir</string>
+    <string name="login_error">Giriş Hatalı, Lütfen tekrar deneyiniz.</string>
+    <string name="app_name" translatable="false">HisseSenetleriTahmin</string>
+</resources>

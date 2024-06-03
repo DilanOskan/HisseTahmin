@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_hint">Enter Your E-Mail Address</string>
+    <string name="have_a_nice_day">Have a nice day</string>
+    <string name="password_hint">Enter Your Password</string>
+    <string name="forgot_password">I Forgot My Password</string>
+    <string name="login">LOGIN</string>
+    <string name="new_user">New User</string>
+    <string name="privacy_policy">By becoming a member or logging in, you are deemed to have accepted the Terms of Use and Privacy.</string>
+    <string name="change_language">Change Language</string>
+    <string name="login_error">Login is incorrect, please try again.</string>
+</resources>
